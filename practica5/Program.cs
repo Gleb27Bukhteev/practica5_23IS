@@ -13,6 +13,8 @@ namespace practica5
             Console.Write("Введите значение x = ");
             string s = Console.ReadLine();
             double x = Convert.ToDouble(s);
+
+            double F = 2 * Math.Sin(x) + 3 * Math.Cos(x);
         }
     }
 }
