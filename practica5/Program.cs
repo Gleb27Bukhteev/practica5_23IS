@@ -15,6 +15,9 @@ namespace practica5
             double x = Convert.ToDouble(s);
 
             double F = 2 * Math.Sin(x) + 3 * Math.Cos(x);
+
+            Console.WriteLine($"Для значения x = {x}, F = {F}");
+            Console.ReadKey();
         }
     }
 }
